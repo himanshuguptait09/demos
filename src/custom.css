@@ -1,0 +1,317 @@
+                            .body {
+                                margin: 0;
+                                padding: 0;
+                                font-family: "Montserrat", Helvetica, Arial, serif;
+                                background-color: #c6e8e1;
+                            }
+                            /* side bar items */
+                            
+                            .icon {
+                                font-size: 1rem;
+                                align-items: center;
+                                margin-left: 0.6rem;
+                            }
+                            
+                            .nav-item {
+                                font-size: 0.9rem;
+                                font-weight: 400;
+                            }
+                            
+                            #sidebar {
+                                flex: 0 0 auto;
+                            }
+                            
+                            .nav-item:hover {
+                                color: white;
+                                background-color: #0ad8b5;
+                                margin: 0;
+                                padding: 0;
+                            }
+                            
+                            .nav-link.active {
+                                background-color: #0ad8b5;
+                            }
+                            /* top header for  gradient background*/
+                            
+                            .header-background-color {
+                                background: linear-gradient(180deg, rgba(248, 248, 248, 0.95) 44%, rgba(248, 248, 248, 0.46) 73%, rgba(255, 255, 255, 0));
+                            }
+                            /* header */
+                            
+                            header {
+                                background: linear-gradient(0deg, rgba(0, 84, 87, 1) 0%, rgba(3, 218, 197, 1) 100%);
+                                margin-left: 1rem;
+                                margin-right: 1rem;
+                            }
+                            
+                            h2,
+                            h4 {
+                                margin-bottom: 0.5rem;
+                                font-family: inherit;
+                                font-weight: 500;
+                                line-height: 1.2;
+                                color: #5e5873;
+                            }
+                            
+                            .breadcrumb-header {
+                                margin-top: 0.6rem;
+                            }
+                            /* page header and table card header */
+                            
+                            .breadcrumb-header,
+                            .table-header {
+                                margin-top: 0;
+                                margin-bottom: 0.5rem;
+                                font-family: inherit;
+                                font-weight: 500;
+                                line-height: 1.2;
+                                color: #5e5873;
+                            }
+                            
+                            label {
+                                font-weight: 600;
+                                font-size: 0.813rem;
+                                color: #005457 !important;
+                                white-space: nowrap;
+                                max-width: 100%;
+                                overflow: hidden;
+                                text-overflow: ellipsis;
+                            }
+                            
+                            .required:after {
+                                content: " *";
+                                color: red;
+                            }
+                            /* all checkbox */
+                            
+                            .custom-checkbox .form-check-input:checked {
+                                background-color: #0ad8b5;
+                                border-color: #0ad8b5;
+                                width: 16px;
+                                height: 16px;
+                            }
+                            /* for only search button padding-top */
+                            
+                            .search-btn {
+                                padding-top: 26px;
+                            }
+                            
+                            .btn-primary {
+                                border-color: #0AD8B5 !important;
+                                background-color: #0AD8B5 !important;
+                                color: #fff;
+                                font-weight: 500 !important;
+                                text-align: center;
+                                letter-spacing: 0.03rem;
+                                transition: all 0.3s ease-in 0.0s;
+                                animation: pulse 2s infinite;
+                            }
+                            
+                            .btn-primary:active {
+                                background-color: #055e61 !important;
+                                border-color: #055e61 !important;
+                                outline: none !important;
+                            }
+                            /* all links  */
+                            
+                            .custom-link {
+                                color: #7367f0;
+                                font-size: 0.9rem !important;
+                                outline: none;
+                            }
+                            /* for upload Image */
+                            
+                            .custom-span {
+                                color: #055e61;
+                                font-weight: 500;
+                            }
+                            
+                            .custom-p {
+                                font-weight: 500;
+                            }
+                            /* for use input filed and select dropdown option */
+                            
+                            .form-control {
+                                font-size: 0.9rem !important;
+                                line-height: 1.5rem !important;
+                            }
+                            
+                            .form-control::placeholder {
+                                margin: 0;
+                                font-family: inherit;
+                                font-weight: 500;
+                                font-size: 0.9rem !important;
+                                line-height: 1.5rem !important;
+                                color: #cacaca !important;
+                            }
+                            
+                            select::placeholder {
+                                font-size: 0.9rem !important;
+                                font-weight: 500;
+                            }
+                            
+                            select,
+                            .custom-dropdown-btn {
+                                font-size: 0.9rem !important;
+                                line-height: 1.5rem !important;
+                            }
+                            
+                            option {
+                                font-size: 0.9rem !important;
+                            }
+                            
+                            *:focus {
+                                outline: none;
+                                box-shadow: 0 0 0 0 transparent !important;
+                                border-color: #005457 !important;
+                            }
+                            /*  tables */
+                            
+                            table th {
+                                background-color: #F3F2F7 !important;
+                                vertical-align: middle;
+                                font-size: 0.857rem !important;
+                                border-bottom: none;
+                                font-weight: 600;
+                                color: #353838 !important;
+                                letter-spacing: 0.03125rem;
+                            }
+                            
+                            table td {
+                                border-bottom: none;
+                                font-size: 0.857rem !important;
+                                font-weight: 400;
+                                vertical-align: middle;
+                                letter-spacing: 0.03125rem;
+                            }
+                            /* assign page  */
+                            
+                            .assign-header-table th {
+                                font-size: 0.7rem !important;
+                                text-align: center;
+                                vertical-align: middle;
+                            }
+                            
+                            .assign-header-table td {
+                                font-size: 0.0.7rem !important;
+                            }
+                            /* pagination on list table */
+                            
+                            .custom-paginator .p-highlight {
+                                font-weight: bold;
+                                color: #005457 !important;
+                                border-radius: 2rem;
+                                background-color: #e0f7f9;
+                            }
+                            
+                            .custom-paginator .p-paginator-page {
+                                border-radius: 50%;
+                                border: 0px solid none;
+                                transition: background-color 0.3s, color 0.3s, transform 0.2s;
+                            }
+                            
+                            .custom-paginator .p-paginator-page:active {
+                                background-color: #009a8e;
+                                border: 0px solid #009a8e;
+                                transform: scale(1);
+                            }
+                            /*for all drop down btn   */
+                            
+                            .dropdown-button {
+                                text-align: left;
+                                padding-left: 0.5rem;
+                            }
+                            /* for logout dropdown btn */
+                            
+                            .dropdown-item {
+                                color: #5e5873 !important;
+                            }
+                            
+                            .dropdown-menu .dropdown-item:hover {
+                                background-color: #0ad8b5 !important;
+                                color: white !important;
+                            }
+                            /* upload document location page  */
+                            
+                            .upload-card {
+                                background-color: #d3ebe6;
+                            }
+                            /*switch toogle  */
+                            
+                            .custom-switch .form-check-input:checked {
+                                background-color: #0ad8b5;
+                                border-color: #0ad8b5;
+                                border-color: none;
+                            }
+                            
+                            .custom-switch .form-check-input {
+                                background-color: #e9ecef;
+                                border-color: none;
+                            }
+                            
+                            .custom-switch .form-check-label {
+                                margin-left: 0.2rem;
+                            }
+                            /* session card :-duty roster page  */
+                            
+                            .session-card {
+                                background-color: #f3f2f7 !important;
+                                border-radius: 0.375rem;
+                                margin-bottom: 1rem;
+                            }
+                            
+                            .custom-hr {
+                                color: #29A7AC !important;
+                            }
+                            /* output css */
+                            
+                            output {
+                                font-weight: 600;
+                                font-size: 0.813rem;
+                                color: gray;
+                            }
+                            /* page not found  */
+                            
+                            .custom-page-notfound {
+                                color: rgb(17, 153, 85);
+                                text-shadow: 0px 0px 4px #0ad8b5;
+                                font-family: "Montserrat", Helvetica, Arial, serif;
+                                font-size: xx-large;
+                            }
+                            /* footer */
+                            
+                            .footer-span {
+                                font-size: 0.9rem;
+                                color: #5e5873;
+                            }
+                            /* Apply rotation and flipping animations */
+                            
+                            .rotate-flip {
+                                animation: rotate 1s linear infinite, flip-horizontal 2s linear infinite;
+                            }
+                            /* for flipping the footer logo horizontally */
+                            
+                            @keyframes flip-horizontal {
+                                0% {
+                                    transform: scaleX(1);
+                                }
+                                100% {
+                                    transform: scaleX(-1);
+                                }
+                            }
+                            /* for flipping the footer logo vertically */
+                            
+                            @keyframes flip-vertical {
+                                0% {
+                                    transform: scaleY(1);
+                                }
+                                100% {
+                                    transform: scaleY(-1);
+                                }
+                            }
+                            
+                            @media (max-width: 767px) {
+                                .search-btn {
+                                    padding-top: 0;
+                                }
+                            }
